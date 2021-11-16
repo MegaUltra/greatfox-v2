@@ -6,13 +6,13 @@ import * as styles from './navigation.module.css'
 const Navigation = () => (
   <nav role="navigation" className={styles.container} aria-label="Main">
     <Link to="/" className={styles.logoLink}>
-      <span className={styles.logo} />
-      <span className={styles.navigationItem}>Gatsby Starter Contentful</span>
+      {/* <span className={styles.logo} /> */}
+      <span className={styles.navigationItem}>greatFox</span>
     </Link>
     <ul className={styles.navigation}>
       <li className={styles.navigationItem}>
         <Link to="/" activeClassName="active">
-          Home
+          Fox-Den
         </Link>
       </li>
       <li className={styles.navigationItem}>
