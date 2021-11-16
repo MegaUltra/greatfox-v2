@@ -1,0 +1,30 @@
+[
+  {
+    "ts": "2021-11-16T01:35:39.783Z",
+    "level": "error",
+    "error": {
+      "originalError": {
+        "name": "AccessTokenInvalid",
+        "message": "{\n  \"status\": 403,\n  \"statusText\": \"Forbidden\",\n  \"message\": \"The access token you sent could not be found or is invalid.\",\n  \"details\": {},\n  \"request\": {\n    \"url\": \"/spaces/c3hxzjey20c7\",\n    \"headers\": {\n      \"Accept\": \"application/json, text/plain, */*\",\n      \"Authorization\": \"Bearer ...vZh-k\",\n      \"user-agent\": \"node.js/v17.0.1\",\n      \"Accept-Encoding\": \"gzip\"\n    },\n    \"method\": \"get\"\n  },\n  \"requestId\": \"f72ee54e-e53c-4d8e-9930-567c28aec945\"\n}"
+      },
+      "data": {
+        "status": 403,
+        "statusText": "Forbidden",
+        "message": "The access token you sent could not be found or is invalid.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/c3hxzjey20c7",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Authorization": "Bearer ...vZh-k",
+            "user-agent": "node.js/v17.0.1",
+            "Accept-Encoding": "gzip"
+          },
+          "method": "get"
+        },
+        "requestId": "f72ee54e-e53c-4d8e-9930-567c28aec945"
+      }
+    }
+  }
+]

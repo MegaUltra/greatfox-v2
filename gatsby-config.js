@@ -36,8 +36,8 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "greatFox",
+    description: "Home page of greatFox, a pop music artist",
   },
   pathPrefix: "/gatsby-contentful-starter",
   plugins: [
